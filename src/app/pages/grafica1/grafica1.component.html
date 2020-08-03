@@ -1,1 +1,24 @@
-<p>grafica1 works!</p>
+<div class="row">
+  <div class="col-6">
+      <app-dona title="Ventas"
+                [doughnutChartLabels]="labels1"
+                [doughnutChartData]="data1"></app-dona>
+  </div>
+  <div class="col-6">
+    <app-dona title="Línea Blanca"
+              [doughnutChartLabels]="labels2"
+              [doughnutChartData]="data2"></app-dona>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <app-dona title="Tech"
+              [doughnutChartLabels]="labels3"
+              [doughnutChartData]="data3"></app-dona>
+  </div>
+  <div class="col-6">
+    <app-dona title="Insumos"
+              [doughnutChartLabels]="labels4"
+              [doughnutChartData]="data4"></app-dona>
+  </div>
+</div>
